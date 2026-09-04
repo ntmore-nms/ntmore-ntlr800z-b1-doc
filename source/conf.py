@@ -14,8 +14,8 @@ import sphinx_fontawesome
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'NTmore NMS'
-copyright = '2023,2024,NTmore All rights reserved, nms-service@ntmore.kr'
+project = 'NTLR800Z-B1'
+copyright = '2026,NTmore All rights reserved, nms-service@ntmore.kr'
 author = 'jclee@ntmore.kr'
 release = '1.0'
 
@@ -30,7 +30,7 @@ exclude_patterns = []
 language = 'ko'
 
 html_title = " ".join([project, release, "Documentation"])
-html_short_title = "NTmore NMS"
+html_short_title = "NTmore NTLR800Z-B1"
 html_logo = "images/logo-only-50f.png"
 html_favicon = 'images/favicon.png'
 
