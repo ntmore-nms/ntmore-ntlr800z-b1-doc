@@ -11,7 +11,7 @@ import sphinx_fontawesome
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information -----------------------------------------------------
+# -- Project information =======================-----------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'NTLR800Z-B1'
@@ -19,7 +19,7 @@ copyright = '2026,NTmore All rights reserved, nms-service@ntmore.kr'
 author = 'jclee@ntmore.kr'
 release = '1.0'
 
-# -- General configuration ---------------------------------------------------
+# -- General configuration =======================---------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx_fontawesome']
@@ -34,7 +34,7 @@ html_short_title = "NTmore NTLR800Z-B1"
 html_logo = "images/logo-only-50f.png"
 html_favicon = 'images/favicon.png'
 
-# -- Options for HTML output -------------------------------------------------
+# -- Options for HTML output =======================-------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'alabaster'
