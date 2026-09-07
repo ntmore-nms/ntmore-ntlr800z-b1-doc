@@ -10,6 +10,8 @@
     :width: 100%
 현재 디바이스에 대한 버전 정보를 표시 합니다.
 
+문서에 대한 내용은 https://ntmore-ntlr800z-b1-doc.readthedocs.io 에서도 확인할 수 있습니다.
+
 오픈소스 라이선스
 ------------------------------------
 .. image:: ./images/help-01.png
