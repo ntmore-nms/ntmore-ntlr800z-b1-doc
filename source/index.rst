@@ -31,7 +31,16 @@ Contents:
 
 .. toctree::
    :maxdepth: 1
-   :caption: 메인메뉴
+   :caption: 제품 개요
+
+   howto/overview.rst
+   howto/administrator.rst
+   howto/connection.rst
+   howto/device_manage.rst
+  
+.. toctree::
+   :maxdepth: 1
+   :caption: UI 상세 메뉴 소개
    
    main_menu/login.rst
    main_menu/status.rst
