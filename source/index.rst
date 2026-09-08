@@ -25,12 +25,7 @@ Contents:
 ---------
 
 .. toctree::
-   :maxdepth: 1
-
-   intro
-
-.. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 제품 개요
 
    howto/overview.rst
@@ -39,7 +34,7 @@ Contents:
    howto/device_manage.rst
   
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: UI 상세 메뉴 소개
    
    main_menu/login.rst
