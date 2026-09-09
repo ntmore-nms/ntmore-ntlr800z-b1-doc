@@ -48,3 +48,15 @@ html_theme_options = {
 }
 
 html_last_updated_fmt = '%B %d, %Y'
+
+# conf.py 파일
+html_css_files = [
+    'css/custom.css', # 경로에 맞게 수정
+]
+
+rst_prolog = """
+.. role:: red
+   :class: red-text
+.. role:: blue
+   :class: blue-text
+"""
