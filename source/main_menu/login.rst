@@ -12,4 +12,4 @@
 .. image:: ./images/login-00.png
     :width: 50%
 
-.. note:: 패스워드어쩌고 저쩌고.
+.. note:: 패스워드는 디바이스 뒷면에 적혀 있습니다.
