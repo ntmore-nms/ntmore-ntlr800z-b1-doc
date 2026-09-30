@@ -60,3 +60,18 @@ rst_prolog = """
 .. role:: blue
    :class: blue-text
 """
+
+# source/conf.py 파일 맨 아래에 추가
+
+latex_engine = 'xelatex'
+latex_elements = {
+    'fontpkg': r'''
+\setmainfont{NanumMyeongjo}
+\setsansfont{NanumGothic}
+\setmonofont{NanumGothicCoding}
+''',
+    'preamble': r'''
+\usepackage{fontspec}
+\usepackage{kotex}
+''',
+}
