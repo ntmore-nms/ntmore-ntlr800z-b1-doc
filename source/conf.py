@@ -61,7 +61,7 @@ rst_prolog = """
    :class: blue-text
 """
 
-# source/conf.py 파일 맨 아래에 추가
+# source/conf.py 맨 아랫줄에 복사해서 붙여넣으세요.
 
 latex_engine = 'xelatex'
 latex_elements = {
