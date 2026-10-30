@@ -6,21 +6,10 @@ from pathlib import Path
 import sphinx_rtd_theme
 import sphinx_fontawesome
 
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information =======================-----------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 project = 'NTLR800Z-B1'
 copyright = '2026,NTmore All rights reserved, nms-service@ntmore.kr'
 author = 'jclee@ntmore.kr'
 release = '1.0'
-
-# -- General configuration =======================---------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx_fontawesome']
 
@@ -33,9 +22,6 @@ html_title = " ".join([project, release, "Documentation"])
 html_short_title = "NTmore NTLR800Z-B1"
 html_logo = "images/logo-only-50f.png"
 html_favicon = 'images/favicon.png'
-
-# -- Options for HTML output =======================-------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
@@ -64,6 +50,7 @@ rst_prolog = """
 # source/conf.py 맨 아랫줄에 복사해서 붙여넣으세요.
 
 latex_engine = 'xelatex'
+latex_logo = 'images/logo.png'
 latex_elements = {
     'fontpkg': r'''
 \setmainfont{NanumMyeongjo}
@@ -73,5 +60,6 @@ latex_elements = {
     'preamble': r'''
 \usepackage{fontspec}
 \usepackage{kotex}
+
 ''',
 }
